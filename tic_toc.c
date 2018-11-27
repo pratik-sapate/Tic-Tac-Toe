@@ -1,4 +1,5 @@
 #include<stdio.h>
+//display grid after each tern
 void display(char mat[3][3])
 {
 	int i,j;
@@ -12,6 +13,7 @@ void display(char mat[3][3])
 		printf("\n");
 	}
 }
+//logic for win
 int check_matrix(char mat[3][3])
 {
 	int i,j;
@@ -67,6 +69,6 @@ int main()
 
 	if(i==9)
 	{
-		printf("Match is drow 'doghe pan kashila ja!!!! Haramkhor!!!\n");
+		printf("Match is drow !! try again\n");
 	}
 }
